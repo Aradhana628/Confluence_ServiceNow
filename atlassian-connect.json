@@ -1,0 +1,16 @@
+{
+  "key": "confluence-webhook-app",
+  "name": "Confluence Webhook Integration",
+  "baseUrl": "https://your-public-host.com",
+  "authentication": {
+    "type": "none"
+  },
+  "modules": {
+    "webhooks": [
+      {
+        "event": "page_updated",
+        "url": "https://dev225544.service-now.com/api/now/v1/confluence/webhook"
+      }
+    ]
+  }
+}
